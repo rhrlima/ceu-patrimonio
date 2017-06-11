@@ -24,7 +24,7 @@ class Localidade(models.Model):
 class Responsavel(models.Model):
 
 	class Meta:
-		verbose_name_plural = "Responsaveis"
+		verbose_name_plural = "Responsáveis"
 
 	def __unicode__(self):
 		return self.r_nome
